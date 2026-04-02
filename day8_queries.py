@@ -23,25 +23,9 @@ cursor.executemany('INSERT INTO employees values (?,?,?,?,?)', [
 conn.commit()
 print("Database Ready")
 
-cursor.execute("Select * from employees")
+cursor.execute("select name, salary, city from employees where salary>4000 and city != 'Bangkok' order by salary desc limit 3")
 rows=cursor.fetchall()
 
 for row in rows:
     print(row)
 
-cursor.execute("Select name, department from employees")
-rows=cursor.fetchall()
-
-for row in rows:
-    print(row)
-cursor.execute("Select * from employees where department='IT'")
-rows=cursor.fetchall()
-
-for row in rows:
-    print(row)
-
-cursor.execute("Select * from employees order by salary desc")
-rows=cursor.fetchall()
-
-for row in rows:
-    print(row)

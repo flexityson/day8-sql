@@ -2,8 +2,8 @@
 **Author:** Iung Seangchanmony (Tyson)  
 **Date:** 2026-04-02  
 **Topic:** WHERE with numeric conditions, AND, OR, LIMIT  
-**Queries completed:** 10 / 10 ✅  
-**Status:** Pushed to GitHub ✅
+**Queries completed:** 10 / 10  
+**Status:** Pushed to GitHub 
 
 ---
 
@@ -40,7 +40,7 @@ SELECT → FROM → WHERE → ORDER BY → LIMIT
 | `=` | equal to | `salary = 5000` |
 | `!=` | not equal to | `city != 'Bangkok'` |
 
-Same operators you already know from Python. ✅
+Same operators you already know from Python. 
 
 ---
 

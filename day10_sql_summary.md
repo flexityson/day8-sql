@@ -2,8 +2,8 @@
 **Author:** Iung Seangchanmony (Tyson)  
 **Date:** 2026-04-03  
 **Topic:** COUNT, SUM, AVG, GROUP BY, HAVING  
-**Queries completed:** 15 / 15 ✅  
-**Status:** Pushed to GitHub ✅
+**Queries completed:** 15 / 15 
+**Status:** Pushed to GitHub 
 
 ---
 

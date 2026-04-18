@@ -1,8 +1,8 @@
 #subqueries and case when
 import sqlite3
 
-conn=sqlite3.connect(':memory:')
-cursor=conn.cursor()
+conn= sqlite3.connect(':memory:')
+cursor= conn.cursor()
 
 cursor.execute('''
     CREATE TABLE employees(
